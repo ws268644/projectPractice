@@ -19,8 +19,8 @@ namespace projectPractice
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            String username = lblUsername.Text;
-            String password = lblPassword.Text;
+            String username = txtUsername.Text;
+            String password = txtPassword.Text;
 
             if (username == "Gamer")
             {
