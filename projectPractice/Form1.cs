@@ -16,5 +16,21 @@ namespace projectPractice
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            String username = lblUsername.Text;
+            String password = lblPassword.Text;
+
+            if (username == "Gamer")
+            {
+                if (password == "Chad")
+                {
+                    MessageBox.Show("You have logged in");
+                }
+                else { MessageBox.Show("Password is incorrect."); }
+            }
+            else { MessageBox.Show("Login details are incorrect."); }
+        }
     }
 }
